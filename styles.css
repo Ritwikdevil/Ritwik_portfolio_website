@@ -343,7 +343,7 @@ footer {
     margin-right: 10px; /* Space between icon and text */
 }
 
-/* /connect with me/ */
+/* /connect with/ */
 
 .connect-container {
     margin-top: 30px;
@@ -384,4 +384,186 @@ footer {
 }
 
 
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
 
+/* Label Styling */
+form label {
+    font-size: 1.1rem;
+    color: #0aff0a; /* Neon Green */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Input Field Styling */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0aff0a;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Input Field Focus Effect */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #ff07d0; /* Pink glow on focus */
+    outline: none;
+    box-shadow: 0 0 10px #ff07d0;
+}
+
+/* Textarea Styling */
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+/* Submit Button Styling */
+form button[type="submit"] {
+    background-color: #0aff0a; /* Neon Green */
+    color: #000000;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Submit Button Hover Effect */
+form button[type="submit"]:hover {
+    background-color: #ff07d0; /* Change color on hover */
+    color: #ffffff;
+}
+
+/* Contact Container Layout */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* For responsive behavior */
+    margin-top: 20px;
+}
+
+/* Form Styling (same as previous styles) */
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Connect with Me Styling */
+.connect-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Social Links Styling */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links li a {
+    color: #0aff0a; /* Neon Green */
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.social-links li a i {
+    margin-right: 10px; /* Spacing between icon and text */
+    font-size: 1.5rem;
+}
+
+/* Form Fields Styling (same as before) */
+form label {
+    font-size: 1.1rem;
+    color: #0aff0a; /* Neon Green */
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0aff0a;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+/* Input Field Focus Effect */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+    border-color: #ff07d0; /* Pink glow on focus */
+    outline: none;
+    box-shadow: 0 0 10px #ff07d0;
+}
+
+/* Submit Button Styling */
+form button[type="submit"] {
+    background-color: #0aff0a;
+    color: #000000;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Submit Button Hover Effect */
+form button[type="submit"]:hover {
+    background-color: #ff07d0;
+    color: #ffffff;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Stack the form and connect sections */
+    }
+
+    .connect-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
