@@ -343,8 +343,45 @@ footer {
     margin-right: 10px; /* Space between icon and text */
 }
 
-/* // */
+/* /connect with me/ */
 
+.connect-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.connect-container h3 {
+    margin-bottom: 15px;
+    color: #0aff0a; /* Neon Green */
+}
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0 15px;
+}
+
+.social-links a {
+    color: #0aff0a; /* Neon Green */
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a:hover {
+    color: #ff07d0; /* Hover color */
+}
+
+.social-links i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 1.5rem; /* Icon size */
+}
 
 
 
