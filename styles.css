@@ -282,4 +282,24 @@ footer {
     color: #ff07d0; /* Neon Pink */
     margin-top: 10px; /* Space above tech stack */
 }
+#projects h2 {
+    font-size: 2rem;
+    color: #0aff0a; /* Neon Green */
+    margin-bottom: 20px;
+}
+
+/* Contact Me section styles */
+#contact h2 {
+    font-size: 2rem;
+    color: #0aff0a; /* Neon Green */
+    margin-bottom: 20px;
+}
+
+/* skilss  section styles */
+#skills h2 {
+    font-size: 2rem;
+    color: #0aff0a; /* Neon Green */
+    margin-bottom: 20px;
+}
+
 
