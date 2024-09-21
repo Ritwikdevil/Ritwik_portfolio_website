@@ -302,4 +302,49 @@ footer {
     margin-bottom: 20px;
 }
 
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between subsections */
+    padding: 20px;
+}
+
+.skills-subsection {
+    background-color: #222; /* Dark background for each subsection */
+    border: 2px solid #0aff0a; /* Neon border */
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px; /* Fixed width for subsections */
+    text-align: left; /* Left-align text */
+}
+
+.skills-subsection h3 {
+    color: #0aff0a; /* Neon Green for subsection titles */
+    margin-bottom: 10px;
+}
+
+.skills-subsection ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.skills-subsection ul li {
+    color: #ffffff; /* White text for list items */
+    margin: 5px 0; /* Space between list items */
+}
+
+.skills-subsection ul li {
+    display: flex; /* Align emoji/icon with text */
+    align-items: center; /* Center vertically */
+}
+
+.skills-subsection ul li::before {
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* // */
+
+
+
 
