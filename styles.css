@@ -237,3 +237,49 @@ footer {
     }
 }
 
+/* project section style */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the projects */
+    gap: 20px; /* Space between project boxes */
+    padding: 20px;
+}
+
+.project {
+    background-color: #222; /* Dark background for project boxes */
+    border: 2px solid #0aff0a; /* Neon border */
+    border-radius: 10px;
+    width: 300px; /* Fixed width for square boxes */
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+.project-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: round corners of images */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0aff0a; /* Neon Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: #ff07d0; /* Change color on hover */
+}
+.tech-stack {
+    font-size: 0.9rem; /* Slightly smaller font size */
+    color: #ff07d0; /* Neon Pink */
+    margin-top: 10px; /* Space above tech stack */
+}
+
