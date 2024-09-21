@@ -203,3 +203,37 @@ footer {
         font-size: 1.5rem;
     }
 }
+.menu-toggle {
+    display: none; /* Hidden by default */
+    background: transparent;
+    border: none;
+    color: #0aff0a;
+    font-size: 24px; /* Adjust size as needed */
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex; /* Flex layout for desktop */
+    gap: 20px; /* Space between nav items */
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide nav links by default on mobile */
+        flex-direction: column; /* Stack items vertically */
+        position: absolute; /* Absolute positioning */
+        background: rgba(0, 0, 0, 0.8); /* Background for dropdown */
+        top: 60px; /* Position below the navbar */
+        right: 0; /* Align to the right */
+        width: 100%; /* Full width */
+    }
+
+    .nav-links.active {
+        display: flex; /* Show links when active */
+    }
+
+    .menu-toggle {
+        display: block; /* Show the toggle button only on mobile */
+    }
+}
+

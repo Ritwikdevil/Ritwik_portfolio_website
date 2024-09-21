@@ -14,3 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInterval(showNextRole, 3000); // Change role every 3 seconds
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+});
